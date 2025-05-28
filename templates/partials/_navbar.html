@@ -21,8 +21,7 @@
           <a class="nav-link" href={% url "pages:about" %}>About</a>
         </li>
         <li class="nav-item mr-3">
-          {% comment %} fix link {% endcomment %}
-          <a class="nav-link" href="listings.html">Featured Listings</a>
+          <a class="nav-link" href={% url "listings:index" %}>Featured Listings</a>
         </li>
       </ul>
 
